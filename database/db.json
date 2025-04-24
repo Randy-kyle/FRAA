@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@example.com",
+      "password": "123456",
+      "role": "admin",
+      "joined": "2024-01-01"
+    },
+    {
+      "id": 2,
+      "username": "user1",
+      "email": "user1@example.com",
+      "password": "abc123",
+      "role": "user",
+      "joined": "2024-03-15"
+    }
+  ],
+  "games": [
+    {
+      "id": 1,
+      "title": "Love Quest",
+      "category": "RPG",
+      "description": "Game cinta petualangan dewasa.",
+      "thumbnail": "/assets/images/love-quest.jpg",
+      "embed": "/games/game1/index.html"
+    },
+    {
+      "id": 2,
+      "title": "Strip Fighter",
+      "category": "Action",
+      "description": "Game bertarung yang penuh godaan.",
+      "thumbnail": "/assets/images/strip-fighter.jpg",
+      "embed": "/games/game2/index.html"
+    }
+  ]
+}
