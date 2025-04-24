@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelola Game - Admin FRAA-ADULT</title>
+  <link rel="stylesheet" href="../styles/admin.css">
+</head>
+<body>
+  <header>
+    <h1>Admin Panel - FRAA-ADULT</h1>
+    <nav>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="users.html">Pengguna</a>
+      <a href="games.html" class="active">Game</a>
+      <a href="../index.html">Kembali ke Situs</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="admin-games">
+      <h2>Daftar Game</h2>
+      <button class="add-btn">+ Tambah Game</button>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Judul</th>
+            <th>Kategori</th>
+            <th>Status</th>
+            <th>Aksi</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>101</td>
+            <td>Love Simulator</td>
+            <td>RPG</td>
+            <td>Aktif</td>
+            <td>
+              <button>Edit</button>
+              <button>Hapus</button>
+            </td>
+          </tr>
+          <tr>
+            <td>102</td>
+            <td>Adult Mansion</td>
+            <td>Simulasi</td>
+            <td>Draft</td>
+            <td>
+              <button>Edit</button>
+              <button>Publikasikan</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 FRAA-ADULT. Panel Admin.</p>
+  </footer>
+</body>
+</html>
